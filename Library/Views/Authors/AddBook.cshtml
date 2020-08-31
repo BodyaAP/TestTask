@@ -1,0 +1,28 @@
+﻿@model Library.Models.Book
+
+<h2>Нова книга</h2>
+
+@using (Html.BeginForm())
+{
+
+    @Html.LabelFor(model => model.Name, "Назва книги")
+    <br />
+    @Html.EditorFor(model => model.Name)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Genre, "Жанр")
+    <br />
+    @Html.EditorFor(model => model.Genre)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Page, "Кількість сторінок")
+    <br />
+    @Html.EditorFor(model => model.Page)
+    <br />
+    <br />
+    <p>
+        Автор<br />
+        @Html.DropDownListFor(model => model.AuthorId, ViewBag.Author as SelectList)
+    </p>
+    <input type="submit" value="Додати" />
+}

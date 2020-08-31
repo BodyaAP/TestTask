@@ -1,0 +1,16 @@
+﻿@model IEnumerable<Library.Models.Book>
+
+<div>
+    <dv>Книги автора</dv>
+    @Html.ActionLink("Додати книгу", "AddBook")
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@Html.Label("Назва книги: ") @item.Name</li>
+            <li>@Html.Label("Жанр: ") @item.Genre</li>
+            <li>@Html.Label("Кількість сторінок: ") @item.Page</li>
+            @Html.Label("---------------------")
+        }
+    </ul>
+    @Html.ActionLink("Згорнути список", "Index")
+</div>

@@ -1,0 +1,7 @@
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\bin\Debug\RemoveDuplicates.exe.config
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\bin\Debug\RemoveDuplicates.exe
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\bin\Debug\RemoveDuplicates.pdb
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\obj\Debug\RemoveDuplicates.csprojAssemblyReference.cache
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\obj\Debug\RemoveDuplicates.csproj.CoreCompileInputs.cache
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\obj\Debug\RemoveDuplicates.exe
+C:\Users\maest\Desktop\TestTask\RemoveDuplicates\obj\Debug\RemoveDuplicates.pdb

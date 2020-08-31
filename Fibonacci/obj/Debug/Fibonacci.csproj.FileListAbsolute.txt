@@ -1,0 +1,11 @@
+C:\Users\maest\Desktop\TestTask\Fibonacci\bin\Debug\Fibonacci.exe.config
+C:\Users\maest\Desktop\TestTask\Fibonacci\bin\Debug\Fibonacci.exe
+C:\Users\maest\Desktop\TestTask\Fibonacci\bin\Debug\Fibonacci.pdb
+C:\Users\maest\Desktop\TestTask\Fibonacci\obj\Debug\Fibonacci.csprojAssemblyReference.cache
+C:\Users\maest\Desktop\TestTask\Fibonacci\obj\Debug\Fibonacci.csproj.CoreCompileInputs.cache
+C:\Users\maest\Desktop\TestTask\Fibonacci\obj\Debug\Fibonacci.exe
+C:\Users\maest\Desktop\TestTask\Fibonacci\obj\Debug\Fibonacci.pdb
+C:\Users\maest\Desktop\TestTask\Fibonacci\bin\Debug\Fibonacci.exe.manifest
+C:\Users\maest\Desktop\TestTask\Fibonacci\bin\Debug\Fibonacci.application
+C:\Users\maest\Desktop\TestTask\Fibonacci\obj\Debug\Fibonacci.exe.manifest
+C:\Users\maest\Desktop\TestTask\Fibonacci\obj\Debug\Fibonacci.application
