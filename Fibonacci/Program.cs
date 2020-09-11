@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,15 +45,28 @@ namespace Fibonacci
 
         static void Main(string[] args)
         {
-            int n = 41;
+            Stopwatch swr = new Stopwatch();
+            Stopwatch sw = new Stopwatch();
+
+            int n = 45;
             int fr;
             int f;
 
+            swr.Start();
             fr = fibonacciRec(n);
+            swr.Stop();
+
+            sw.Start();
             f = fibonacci(n);
+            sw.Stop();
 
             Console.WriteLine(fr);
+            Console.WriteLine(swr.ElapsedMilliseconds);
+            Console.WriteLine(new string('-', 10));
+
             Console.WriteLine(f);
+            Console.WriteLine(sw.ElapsedMilliseconds);
+            Console.WriteLine(new string('-', 10));
 
             Console.ReadKey();
         }
